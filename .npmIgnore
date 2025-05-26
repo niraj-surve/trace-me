@@ -1,0 +1,21 @@
+# Ignore source and config files
+src/
+tsconfig.json
+*.ts
+!*.d.ts
+
+# Ignore test & coverage
+test/
+coverage/
+
+# Ignore dotfiles and dev-specific tools
+.editorconfig
+.gitignore
+.npmrc
+.vscode/
+.travis.yml
+.github/
+
+# Ignore non-runtime content
+examples/
+docs/
